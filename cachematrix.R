@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Crea un objeto tipo MATRIZ tomando los datos de una matriz cuadrada invertible donde puede almacenar en cache su inversa
 
 makeCacheMatrix <- function(x = matrix()) {
     m<-NULL
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## calcula la inversa de del OBJETO tipo matriz de la funcion anterior.
 ## Return a matrix that is the inverse of 'x'
 
 cacheSolve <- function(x, ...) {
